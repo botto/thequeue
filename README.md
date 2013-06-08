@@ -1,5 +1,5 @@
-#What?!
-Yes, another SQS lib, but this one uses the AWS sdk from Amazon
+#What, another MQ lib?!
+Yes, another MQ lib, currently this one uses the AWS SDK from Amazon  
 The AWS SDK is a great library, but it's a bit annoying.
 
 If you want to send a message you have to:
