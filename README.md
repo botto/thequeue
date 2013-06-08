@@ -5,7 +5,7 @@ The AWS SDK is a great library, but it's a bit annoying.
 If you want to send a message you have to:
 
     sqs.client.createQueue('bane', function(err, qd) {
-      sqs.client.sendMessage({QueueUrl: qd.QueueUrl, MessageBody: "Now is not a time for fear"}, function(err, rd) {
+      sqs.client.sendMessage({QueueUrl: qd.QueueUrl, MessageBody: "Now's not the time for fear"}, function(err, rd) {
         if (err) {
           console.log(err);
         }
